@@ -7,7 +7,7 @@
   myStyle->SetPadBorderMode(0);
   myStyle->SetPadColor(0);
   myStyle->SetCanvasColor(0);
-  myStyle->SetTitleColor(0);
+  myStyle->SetTitleColor(1);
   myStyle->SetStatColor(0);
   myStyle->SetLabelSize(.05,"x"); // size of axis values
   myStyle->SetLabelSize(.05,"y");
@@ -37,8 +37,8 @@
   myStyle->SetPadLeftMargin(0.13);
   myStyle->SetPadRightMargin(0.1);
 
-  //myStyle->SetPadTickX(1);
-  //myStyle->SetPadTickY(1);
+  myStyle->SetPadTickX(1);
+  myStyle->SetPadTickY(1);
 
 
   
